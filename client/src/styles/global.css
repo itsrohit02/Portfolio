@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Define your custom portfolio colors here */
+@theme {
+  --color-bg: #0a0d1a;
+  --color-marigold: #e8a33d;
+  --color-rose: #b8456b;
+  --color-cyan: #6fe7dd;
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: #f1eae0;
+  margin: 0;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

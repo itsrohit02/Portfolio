@@ -1,0 +1,10 @@
+const mongoose = require('mongoose');
+
+const EventSchema = new mongoose.Schema({
+  title: { type: String, required: true },
+  role: { type: String, required: true },
+  badge: { type: String, required: true },
+  createdAt: { type: Date, default: Date.now }
+});
+
+module.exports = mongoose.model('Event', EventSchema);
