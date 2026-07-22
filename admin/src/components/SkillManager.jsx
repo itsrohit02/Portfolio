@@ -6,7 +6,7 @@ export default function SkillManager() {
   const [editingId, setEditingId] = useState(null);
   const [formData, setFormData] = useState({ name: '', category: 'Frontend' });
   const [status, setStatus] = useState({ type: '', message: '' });
-  const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const apiBaseUrl = import.meta.env.VITE_API_URL || 'https://portfolio-pd7x.onrender.com';
 
   const categories = ['Frontend', 'Backend', 'Database', 'Tools', 'Languages'];
 

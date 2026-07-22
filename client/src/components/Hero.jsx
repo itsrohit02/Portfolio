@@ -42,7 +42,7 @@ export default function Hero() {
 
   useEffect(() => {
     const controller = new AbortController();
-    const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+    const apiBaseUrl = import.meta.env.VITE_API_URL || 'https://portfolio-pd7x.onrender.com';
 
     const loadProfile = async () => {
       try {

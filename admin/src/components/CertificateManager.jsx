@@ -8,7 +8,7 @@ export default function CertificateManager() {
     title: '', org: '', badge: '', date: '', image: '', verify: '', download: ''
   });
   const [status, setStatus] = useState({ type: '', message: '' });
-  const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const apiBaseUrl = import.meta.env.VITE_API_URL || 'https://portfolio-pd7x.onrender.com';
 
   const fetchCerts = async () => {
     try {

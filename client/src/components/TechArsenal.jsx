@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 export default function TechArsenal() {
   const [skills, setSkills] = useState([]);
   const [loading, setLoading] = useState(true);
-  const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const apiBaseUrl = import.meta.env.VITE_API_URL || 'https://portfolio-pd7x.onrender.com';
 
   useEffect(() => {
     const fetchSkills = async () => {

@@ -48,7 +48,7 @@ const RealisticEarth = () => {
 export default function Contact() {
   // Added state to track when the form is submitting
   const [isSending, setIsSending] = useState(false);
-  const apiBaseUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+  const apiBaseUrl = import.meta.env.VITE_API_URL || 'https://portfolio-pd7x.onrender.com';
 
   return (
     <section id="contact" className="relative py-20 bg-[#0a0d1a] border-t border-[rgba(241,234,224,0.1)] overflow-hidden">
